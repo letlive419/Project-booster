@@ -8,15 +8,12 @@
 /langversion:latest
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
-/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
-/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
-/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
@@ -64,6 +61,7 @@
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEditor.dll"
@@ -225,20 +223,14 @@
 /define:UNITY_2019_2_OR_NEWER
 /define:UNITY_2019_3_OR_NEWER
 /define:UNITY_2019_4_OR_NEWER
-/define:PLATFORM_ARCH_64
-/define:UNITY_64
 /define:UNITY_INCLUDE_TESTS
-/define:ENABLE_AR
 /define:ENABLE_AUDIO
 /define:ENABLE_CACHING
 /define:ENABLE_CLOTH
-/define:ENABLE_EVENT_QUEUE
-/define:ENABLE_MICROPHONE
 /define:ENABLE_MULTIPLE_DISPLAYS
 /define:ENABLE_PHYSICS
 /define:ENABLE_TEXTURE_STREAMING
 /define:ENABLE_UNET
-/define:ENABLE_LZMA
 /define:ENABLE_UNITYEVENTS
 /define:ENABLE_VR
 /define:ENABLE_WEBCAM
@@ -263,25 +255,17 @@
 /define:ENABLE_MANAGED_TRANSFORM_JOBS
 /define:ENABLE_MANAGED_ANIMATION_JOBS
 /define:ENABLE_MANAGED_AUDIO_JOBS
-/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_ENGINE_CODE_STRIPPING
 /define:ENABLE_MONO_BDWGC
-/define:ENABLE_SCRIPTING_GC_WBARRIERS
-/define:PLATFORM_SUPPORTS_MONO
 /define:RENDER_SOFTWARE_CURSOR
 /define:ENABLE_VIDEO
-/define:PLATFORM_STANDALONE
-/define:PLATFORM_STANDALONE_WIN
-/define:UNITY_STANDALONE_WIN
-/define:UNITY_STANDALONE
-/define:ENABLE_RUNTIME_GI
-/define:ENABLE_MOVIES
-/define:ENABLE_NETWORK
+/define:PLATFORM_WEBGL
+/define:UNITY_WEBGL
+/define:UNITY_WEBGL_API
+/define:UNITY_DISABLE_WEB_VERIFICATION
+/define:UNITY_GFX_USE_PLATFORM_VSYNC
 /define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
-/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
-/define:ENABLE_CLUSTER_SYNC
-/define:ENABLE_CLUSTERINPUT
-/define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
-/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_SPATIALTRACKING
 /define:ENABLE_MONO
 /define:NET_STANDARD_2_0
 /define:ENABLE_PROFILER
@@ -305,4 +289,5 @@
 /define:ENABLE_LEGACY_INPUT_MANAGER
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
+Assets\Scenes\Movement.cs
 Assets\Scenes\thrust.cs
